@@ -63,7 +63,7 @@ height: auto;
 min-height: 100%;
 color: #484D52;
 }
-
+.center { text-align:center; }
 .clr { clear:both; float:none; }
 
 
