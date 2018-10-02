@@ -1,4 +1,3 @@
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -37,12 +36,12 @@ ul li { list-style-type: square;  padding: 0 0 5px;  }
 ul ul, ol ol { padding: 0; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
-.post-body h1 { line-height: 48px; font-size: 42px; margin: 10px 0; }
-.post-body h2 { font-size: 36px; line-height: 44px; margin: 10px 0; }
-.post-body h3 { font-size: 32px; line-height: 40px; margin: 10px 0; }
-.post-body h4 { font-size: 28px; line-height: 36px; margin: 10px 0;  }
-.post-body h5 { font-size: 24px; line-height: 30px; margin: 10px 0;  }
-.post-body h6 { font-size: 18px; line-height: 24px; margin: 10px 0;  }
+.post-body h1 { line-height: 48px; font-size: 42px; color:#000; font-weight:700; margin: 10px 0; }
+.post-body h2 { font-size: 28px; line-height: 38px; color:#000; font-weight:700; margin: 10px 0; }
+.post-body h3 { font-size: 26px; line-height: 34px; color:#000; font-weight:700; margin: 10px 0; }
+.post-body h4 { font-size: 24px; line-height: 28px; color:#000; font-weight:700; margin: 10px 0;  }
+.post-body h5 { font-size: 22px; line-height: 26px; color:#000; font-weight:700; margin: 10px 0;  }
+.post-body h6 { font-size: 18px; line-height: 24px; color:#000; font-weight:700; margin: 10px 0;  }
 
 /*****************************************
 Global Links CSS
@@ -63,7 +62,9 @@ height: auto;
 min-height: 100%;
 color: #484D52;
 }
-.center { text-align:center; }
+.center {
+text-align:center;
+}
 .clr { clear:both; float:none; }
 
 
@@ -90,11 +91,14 @@ float: left;
 }
 
 #content {
-position: relative;
-width: auto;
-float: left;
-padding: 70px 65px 50px 0;
-border-right: 1px solid #eee;
+	position: relative;
+	width: auto;
+	float: left;
+	border-right: 1px solid #eee;
+	padding-top: 70px;
+	padding-right: 40px;
+	padding-bottom: 50px;
+	padding-left: 0;
 }
 .sidebar-wrapper {
 width: 330px;
@@ -122,6 +126,11 @@ body#layout div.footer {
 width: 33%;
 float: left;
 }
+body#layout div.footer-R {
+width: 33%;
+float: right;
+}
+
 body#layout,body#layout .ct-wrapper{max-width:800px}
 
 /*
@@ -332,8 +341,9 @@ padding: 0 5px;
 background: transparent;
 }
 ul.menu li {
-position: relative;
-list-style:none;
+	position: relative;
+	list-style:none;
+	font-weight: 700;
 }
 ul.menu ul li:first-child > a {
 background-image: none;
@@ -424,6 +434,7 @@ padding-left: 20px!important;
 .ico16 {
 font-family: roboto,sans-serif;
 font-weight: 100;
+text-transform:capitalize;
 }
 div.thumb-wrapper {
 display: block;
@@ -443,6 +454,7 @@ div.post-content {
 float: right;
 max-width: 420px;
 }
+
 div.post-content h2 a {
 color:#0000ff;
 }
@@ -494,10 +506,7 @@ text-decoration:none;
 margin: 0 0 10px;  
 padding: 0 0 10px;  
 }
-
 div.post-content h2,.post-title{font-weight:bold}
-
-
 .post-title,.post-title a,.ico16:before {
 color: #e74c3c!important;
 }
@@ -595,11 +604,14 @@ popular-posts ul {  padding-left: 0;  }
 popular-posts ul li {  border-bottom: 1px dashed #ccc;  list-style: none outside none !important;  margin-left: 0 !important;  overflow: hidden;  padding: 10px 0 !important;  transition: all 0.25s linear 0s;  }
 
 .PopularPosts .item-thumbnail img {
-display: block;
-float: left;
-width: 65px;
-height: 65px;
-margin: 3px 15px 0 0;
+	display: block;
+	float: left;
+	width: 70px;
+	height: 65px;
+	margin-top: 3px;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 5px;
 }
 div.item-snippet {
 font-size: 12px;
@@ -705,23 +717,31 @@ color: #fff;    text-decoration: none;  }
 ******************************************/
 
 #related_posts,#sidebar {
-margin: 0;
-padding: 0;
-margin-left: 50px;
-display: block;
+	padding: 0;
+	margin-left: 30px;
+	display: block;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
 }
-
 .sidebar h2 {
-font-size: 20px;
-font-weight: normal;
-text-transform: none;
-margin-bottom: 15px;
-border-bottom: 1px solid #eee;
-padding: 0 0 0.5em;
-color:#34495e;
+	text-transform: none;
+	margin-bottom: 7px;
+	border-bottom: 1px solid #eee;
+	background-color: #0098D3;
+	padding-top: 0.35em;
+	padding-right: 0;
+	padding-bottom: 0.35em;
+	padding-left: 10px;
+	font-size: 20px;
+	font-weight: normal;
+	color:#FFF;
 }
-
-.sidebar .widget{  clear: both;  margin-bottom: 25px;  }
+.sidebar .widget{
+	clear: both;
+	margin-bottom: 25px;
+	background-color: #EEEEEE;
+}
 
 .sidebar ul{ margin:0; padding:0; list-style:none; }
 
@@ -923,11 +943,14 @@ padding:5px;
 }
 
 .meta span:last-child{
-background:#00AEE8;
-color:#fff;
-float:right;
-border-radius: 3px;
+	background:#00AEE8;
+	color:#fff;
+	float:right;
+	border-radius: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
 }
+
 .form-contact form input {
     vertical-align: middle;
     color: black;
