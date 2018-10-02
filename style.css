@@ -923,11 +923,11 @@ padding:5px;
 }
 
 .meta span:last-child{
-background:#ccc;
+background:#2c3e50;
 color:#fff;
 float:right;
+border-radius: 3px;
 }
-
 .form-contact form input {
     vertical-align: middle;
     color: black;
