@@ -443,6 +443,12 @@ div.post-content {
 float: right;
 max-width: 420px;
 }
+div.post-content h2 a {
+color:#0000ff;
+}
+div.post-content h2 a:hover {
+color#e74c3c;
+}
 .no-img .post-content {
 width: 100%;
 max-width: 100%;
