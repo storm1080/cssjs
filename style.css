@@ -195,7 +195,9 @@ margin-left: 15px;
 opacity: 0.8;
 transition: background-color 250ms, opacity 250ms;
 }
-
+.clock-tel span{
+color: #FF9900;
+}
 
 /*****************************************
 Header CSS
@@ -372,6 +374,7 @@ right: 0;
 background: #2ecc71;
 overflow: hidden;
 z-index: 2;
+height: 47px;
 }
 #search-form-header > i {
 height: 58px;
