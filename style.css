@@ -197,6 +197,7 @@ transition: background-color 250ms, opacity 250ms;
 }
 .clock-tel span{
 color: #FF0000;
+font-weight: 450;
 }
 
 /*****************************************
