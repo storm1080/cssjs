@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: normal; }
 /*****************************************
 Global Links CSS
 ******************************************/
-a{ color: #000; outline:none; text-decoration: none; }
+a{ color: #000; outline:none; text-decoration: none; font-weight:400; }
 a:hover { color: #e74c3c; text-decoration:none; }
 
 body {
@@ -436,6 +436,18 @@ padding-left: 20px!important;
 font-family: roboto,sans-serif;
 font-weight: 100;
 text-transform:capitalize;
+}
+.ico17 {
+font-family: roboto,sans-serif;
+font-weight: 100;
+text-transform:capitalize;
+}
+.ico17 a {
+background-color: #D7D7D7;
+text-align: center;
+padding: 5px;
+margin-left: 5px;
+border-radius: 5px;
 }
 div.thumb-wrapper {
 display: block;
